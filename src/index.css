@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: black;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: black;
+  background-image: url('./assets/images/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.ellipseLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ellipseRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.contentCenter {
+  text-align: center;
+}
+
+.topTitle {
+  width: 340px;
+  height: 90px;
+  margin-top: 90px;
+}
+
+.discoverText {
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 110px;
+  letter-spacing: 0em;
+  margin: 30px 0 0 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.summary {
+  color: white;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  max-width: 965px;
+  margin: 0 auto;
+}
+
+.startTestBtn {
+  background: #CD1223;
+  display: flex;
+  align-items: center;
+  height: 94px;
+  width: 540px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.startTestBtn p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  width: 50%;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+}
+
+.cont img {
+  margin: -100px 0 100px 0;
+  z-index: 5;
+}
+
+.tornPaper {
+  background-image: url('./assets/images/tornPaper.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 983px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainInner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mainRight {
+  width: 47%;
+}
+
+.mainRight img {
+  display: inline-block;
+}
+
+.whyThis {
+  color: white;
+  display: inline-block;
+  font-family: Montserrat;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
