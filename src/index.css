@@ -84,15 +84,19 @@ body {
   margin: 0 auto;
 }
 
+.marginAuto {
+  margin: 0 auto;
+}
+
 .startTestBtn {
   background: #CD1223;
   display: flex;
   align-items: center;
   height: 94px;
   width: 540px;
-  margin: 0 auto;
   margin-top: 50px;
 }
+
 
 .startTestBtn p {
   color: white;
@@ -131,25 +135,108 @@ body {
 .mainInner {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  /* align-items: center; */
+  width: 100%;
+  /* padding: 0 5%; */
 }
 
-.mainRight {
+.mainLeft {
   width: 47%;
 }
 
-.mainRight img {
-  display: inline-block;
+.mainRight {
+  position: relative;
+  width: 53%;
+}
+
+.whyThisBorder {
+  color: rgba(0, 0, 0, 0.9);
+  text-shadow: 1px 0 #3f3f3f, -1px 0 #3f3f3f, 0 1px #3f3f3f, 0 -1px #3f3f3f,
+    1px 1px #3f3f3f, -1px -1px #3f3f3f, 1px -1px #3f3f3f, -1px 1px #3f3f3f;
+  font-family: Montserrat;
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 100px;
+  letter-spacing: 0em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
 }
 
 .whyThis {
   color: white;
-  display: inline-block;
+  font-family: Montserrat;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 100px;
+  letter-spacing: 0em;
+  margin: 0 0 0 10px;
+}
+
+.whyInline {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  position: relative;
+}
+
+.whyInline img {
+  z-index: 5;
+}
+
+.whyInline .whyThis {
+  z-index: 5;
+}
+
+.inlineTest {
+  display: flex;
+  align-items: end;
+  margin-top: 10px;
+  height: 100px;
+  position: relative;
+}
+
+.inlineTest .test {
+  z-index: 5;
+  margin-bottom: -15px;
+}
+
+.test {
   font-family: Montserrat;
   font-size: 100px;
   font-weight: 900;
   line-height: 100px;
   letter-spacing: 0em;
   text-align: left;
+  color: #CD1223;
   margin: 0;
+}
+
+.testBorder {
+  font-family: Montserrat;
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.9);
+  text-shadow: 1px 0 #3f3f3f, -1px 0 #3f3f3f, 0 1px #3f3f3f, 0 -1px #3f3f3f,
+    1px 1px #3f3f3f, -1px -1px #3f3f3f, 1px -1px #3f3f3f, -1px 1px #3f3f3f;
+  margin: 0;
+  position: absolute;
+  left: -70px;
+  bottom: 0;
+}
+
+.mainRight .text {
+  color: white;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 90%;
 }
