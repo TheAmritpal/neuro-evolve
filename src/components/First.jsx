@@ -17,7 +17,10 @@ const First = () => {
                 <div className="max-w-[48%] text-center">
                     <p className="m-0 z-10 text-2xl text-white">With over 80 years of research and millions of people just like you already discovering their core values, motivations, and strengths, the Incredible You DNA Test is the ultimate tool for self-discovery and growth.</p>
                 </div>
-                <StartTestButton className="w-[25%]" />
+                <StartTestButton className="w-[25%]">
+                    <p className="text-white mr-5 text-2xl font-bold">Start The Test</p>
+                    <img src={arrow} alt="arrow" />
+                </StartTestButton>
             </div>
         </div>
     )
