@@ -1,8 +1,8 @@
 import ArfeenKhan from "../assets/images/ArfeenKhan.png"
 const Second = () => {
     return (
-        <div className="cont">
-            <img src={ArfeenKhan} alt="Arfeen Khan" />
+        <div className="flex justify-center -mt-24">
+            <img className="z-10" src={ArfeenKhan} alt="Arfeen Khan" />
         </div>
     )
 }
