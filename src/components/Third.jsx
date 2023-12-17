@@ -10,13 +10,18 @@ const Third = () => {
         <div className="tornPaper w-100 relative -z-2 mt-24 2xl:py-52 xl:py-36 xl:px-10">
             <img className="absolute left-0 top-0 -z-1" src={ellipseTornLeft} alt="Ellipse Left" />
             <img className="absolute right-0 bottom-0 -z-1" src={ellipseTornRight} alt="Ellipse Right" />
-            <div className="flex justify-around items-center h-full 2xl:w-11/12">
+            <div className="flex justify-around items-center h-full 2xl:w-12/12">
                 <img className="z-10 object-scale-down max-h-full xl:w-6/12 xl:pr-10" src={main} alt="Main" />
-                <div className="block w-[50%]">
-                    <div className="relative inline-flex items-end">
-                        <img className="mr-10 object-scale-down max-h-full 2xl:w-6/12 xl:w-5/12 z-10" src={groupArrow} alt="Group Arrow" />
-                        <p className="2xl:-mb-9 xl:-mb-6 z-10 text-white 2xl:text-[110px] xl:text-[60px] font-bold">WHY THIS</p>
-                        <p className="2xl:text-[150px] xl:text-[90px] absolute bottom-0 2xl:-right-[2%] -z-5 font-bold 2xl:-mb-[48px] xl:-mb-[40px]">WHY THIS</p>
+                <div className="block">
+                    {/* <div className="relative inline-flex items-end">
+                        <img className="mr-10 object-scale-down max-h-full 2xl:w-3/12 xl:w-5/12 z-10" src={groupArrow} alt="Group Arrow" />
+                        <p className="2xl:-mb-9 xl:-mb-6 z-10 text-white 2xl:text-[70px] xl:text-[60px] font-bold">WHY THIS</p>
+                        <p className="2xl:text-[150px] xl:text-[90px] absolute bottom-0 2xl:-right-[20%] -z-5 font-bold 2xl:-mb-[48px] xl:-mb-[40px]">WHY THIS</p>
+                    </div> */}
+                    <div className="relative inline-flex items-end 2xl:h-[120px] xl:h-[100px]">
+                        <img className="mr-10 object-scale-down max-h-full 2xl:w-4/12 xl:w-4/12 z-10" src={groupArrow} alt="Group Arrow" />
+                        <p className="2xl:-mb-8 xl:-mb-6 z-10 text-white 2xl:text-[100px] xl:text-[66px] font-bold">WHY THIS</p>
+                        <p className="2xl:text-[150px] xl:text-[100px] absolute bottom-0 2xl:-right-[30%] xl:-right-[5%] -z-5 font-bold 2xl:-mb-[56px] 2xl:mr-[18%] xl:-mb-[40px]">WHY THIS</p>
                     </div>
                     <div className="relative inline-flex items-end 2xl:h-[120px] xl:h-[100px]">
                         <p className="2xl:-mb-8 xl:-mb-6 z-10 text-red-600 2xl:text-[100px] xl:text-[60px] font-bold">TEST?</p>
