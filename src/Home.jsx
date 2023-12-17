@@ -6,6 +6,7 @@ import Fourth from "./components/Fourth";
 import Footer from "./components/Footer";
 import Fifth from "./components/Fifth";
 import Register from "./components/Register";
+import Testimonials from "./components/Testimonials";
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Fourth />
             <Fifth />
             <Register />
+            <Testimonials />
             <Footer />
         </Fragment>
     )

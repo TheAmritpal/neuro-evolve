@@ -27,6 +27,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: Montserrat;
+  width: 100%;
 }
 
 .bg {
@@ -46,9 +47,8 @@ body {
 .tornPaper {
   background-image: url('./assets/images/tornPaper.png');
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 983px;
 }
 
 .whyThisBorder {

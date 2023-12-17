@@ -14,19 +14,19 @@ const Fifth = () => {
             <p className="text-black w-1/3 text-center">Receive your personalized report within minutes.</p>
             <div className="followBg flex items-center justify-around w-11/12 z-10">
                 <div className="flex flex-col items-center text-center">
-                    <p className="text-red-600 font-black text-5xl">Step 1:</p>
-                    <p className="text-white font-black text-6xl">SELECT</p>
-                    <p className="text-white w-3/6 mt-4">Mark your answers based on how well each statement describes you.</p>
+                    <p className="text-red-600 font-black 2xl:text-5xl xl:text-4xl">Step 1:</p>
+                    <p className="text-white font-black 2xl:text-6xl xl:text-5xl">SELECT</p>
+                    <p className="text-white 2xl:w-3/6 xl:w-4/6 mt-4">Mark your answers based on how well each statement describes you.</p>
                 </div>
                 <div className="flex flex-col items-center text-center">
-                    <p className="text-red-600 font-black text-5xl">Step 2:</p>
-                    <p className="text-white font-black text-6xl">Compare</p>
-                    <p className="text-white w-3/6 mt-4">The next step is to compare each card individually among each other. Decide which best represents who you are.</p>
+                    <p className="text-red-600 font-black 2xl:text-5xl xl:text-4xl">Step 2:</p>
+                    <p className="text-white font-black 2xl:text-6xl xl:text-5xl">COMPARE</p>
+                    <p className="text-white 2xl:w-3/6 xl:w-4/6 mt-4">The next step is to compare each card individually among each other. Decide which best represents who you are.</p>
                 </div>
                 <div className="flex flex-col items-center text-center">
-                    <p className="text-red-600 font-black text-5xl">Step 3:</p>
-                    <p className="text-white font-black text-6xl">report</p>
-                    <p className="text-white w-3/6 mt-4">Watch your final Incredible You DNA report from the Arfeen Khan.</p>
+                    <p className="text-red-600 font-black 2xl:text-5xl xl:text-4xl">Step 3:</p>
+                    <p className="text-white font-black 2xl:text-6xl xl:text-5xl">REPORT</p>
+                    <p className="text-white 2xl:w-3/6 xl:w-4/6 mt-4">Watch your final Incredible You DNA report from the Arfeen Khan.</p>
                 </div>
             </div>
             <StartTestButton>
