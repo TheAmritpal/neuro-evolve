@@ -10,13 +10,13 @@ const Footer = () => {
     return (
         <div className='2xl:px-[8%] xl:px-[2%] flex justify-around bg-black py-[40px]'>
             <div className="w-2/6 flex flex-col items-center">
-                <img className="" src={topTitle} alt="Title" />
-                <p className="text-white text-center w-4/6 mt-4">Discover your true self and unlock your full potential with our scientifically-designed personality assessment test.</p>
+                <img className="lg:w-9/12" src={topTitle} alt="Title" />
+                <p className="text-white text-center xl:w-4/6 lg:w-5/6 mt-4">Discover your true self and unlock your full potential with our scientifically-designed personality assessment test.</p>
             </div>
             <div className="w-4/6 flex flex-col items-center">
                 <div className="inline-flex justify-center">
-                    <p className="text-white font-black 2xl:text-[50px] xl:text-[40px] mr-2">Visit Our <span className="text-red-600">Social Media</span> Accounts</p>
-                    <img src={open} className="object-scale-down max-h-full 2xl:w-12 xl:w-10" alt="Open" />
+                    <p className="text-white font-black 2xl:text-[50px] xl:text-[40px] lg:text-[30px] mr-2">Visit Our <span className="text-red-600">Social Media</span> Accounts</p>
+                    <img src={open} className="object-scale-down max-h-full 2xl:w-12 xl:w-10 lg:w-6" alt="Open" />
                 </div>
                 <div className="inline-flex w-2/6 justify-evenly">
                     <img className="object-scale-down max-h-full w-10" src={fb} alt="Facebook" />

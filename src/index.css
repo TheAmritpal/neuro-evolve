@@ -60,9 +60,8 @@ body {
 .followBg {
   background-image: url('./assets/images/stepBg.png');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 553px;
 }
 
 .registerBg {

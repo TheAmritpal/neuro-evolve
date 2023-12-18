@@ -5,8 +5,8 @@ import profile3 from "../assets/images/profile3.png"
 const Testimonials = () => {
     return (
         <div className="flex flex-col items-center my-10">
-            <p className="font-black text-[80px] text-red-600">TESTIMONIALS</p>
-            <p className="-mt-[12px] text-black text-[30px] tracking-[.6em] uppercase">see what others have to say</p>
+            <p className="font-black xl:text-[80px] lg:text-[50px] text-red-600">TESTIMONIALS</p>
+            <p className="-mt-[12px] text-black xl:text-[30px] lg:text-[20px] tracking-[.6em] uppercase">see what others have to say</p>
             <div className="flex items-center 2xl:px-40 xl:px-20 my-10">
                 <img src={profile4} className="object-scale-down max-h-full 2xl:w-5/12 xl:w-6/12" alt="Profile 4" />
                 <div className="flex-col flex w-7/12 text-center px-10">
